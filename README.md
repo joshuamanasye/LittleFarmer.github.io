@@ -1,5 +1,5 @@
 ### Description
-An new project I just started: a horror platformer game.
+A new project I just started: a horror platformer game. I created this project to challenge myself to learn more about web and game development.
 ### Link
 https://joshuamanasye.github.io/LittleFarmer.github.io/
 ### Menu
