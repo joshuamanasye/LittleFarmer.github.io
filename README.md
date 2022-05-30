@@ -6,4 +6,6 @@ https://joshuamanasye.github.io/LittleFarmer.github.io/
 > Use WASD/Arrow Keys/Mouse to navigate</br>
 > User Space/Enter/Left Click to open selected menu
 ### TODO
+Make the background and not steal it from someone else</br>
+Make the music</br>
 Actually making the game
