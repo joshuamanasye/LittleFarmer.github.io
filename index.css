@@ -1,0 +1,109 @@
+body, html{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    margin: 0px;
+    padding: 12px 60px;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial;
+    border: none;
+}
+
+.load-screen{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.click-to-play{
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+    user-select: none;
+    text-align: center;
+    text-decoration: none;
+    font-size:20px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial;
+    letter-spacing: 7px;
+    filter: blur(0.5px);
+    color: white;
+}
+
+.main-menu{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./assets/background.jpg);
+    background-size: 150%;
+}
+
+.title {
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size:80px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial;
+    letter-spacing: 10px;
+    filter: blur(2.5px);
+    cursor: default;
+    user-select: none;
+}
+
+.game-menu{
+    padding: 0px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-container {
+    height: 75px;
+    width: 500px;
+    position: relative;
+  }
+
+.menu-button, .menu-button-bg{
+    width: 100%;
+    height: 102%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    border: 0;
+    /* background-color: rgba(0, 0, 0, 0.7); */
+}
+
+.menu-button{
+    color: white;
+    font-weight: 500;
+    letter-spacing: 10px;
+    background: transparent;
+}
+
+.menu-button-bg{
+    filter: blur(2px);
+}
+
+/* .menu-button:hover{
+    color: black;
+    background-color: #e76e2c;
+} */

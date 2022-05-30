@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Farmer</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="load-screen" class="load-screen" onclick="hideLoadScreen();openMainMenu();">
+        <p class="click-to-play">click to play</p>
+    </div>
+    <div id="main-menu" class="main-menu">
+        <div class="title-div">
+            <h1 class="title">Little Farmer</h1>
+        </div>
+        <div id="game-menu" class="game-menu">
+            <div class="button-container">
+                <div id="menu0bg" class="menu-button-bg"></div>
+                <button id="menu0" class="menu-button" value = "PLAY" onclick="selectMenu(this)"
+                onmouseenter="changeHover(this)">PLAY</button>
+            </div>
+            <div class="button-container">
+                <div id="menu1bg" class="menu-button-bg"></div>
+                <button id="menu1" class="menu-button" value = "STATS" onclick="selectMenu(this)"
+                onmouseenter="changeHover(this)">STATS</button>
+            </div>
+            <div class="button-container">
+                <div id="menu2bg" class="menu-button-bg"></div>
+                <button id="menu2" class="menu-button" value = "OPTIONS" onclick="selectMenu(this)"
+                onmouseenter="changeHover(this)">OPTIONS</button>
+            </div>
+        </div>
+    </div>
+</body>
+<!-- <script src="./js/jquery-latest.min.js"></script> -->
+<script src="./js/index.js"></script>
+</html>
